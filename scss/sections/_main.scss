@@ -1,0 +1,41 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+/* MAIN-IMAGEN */
+/* COMIENZO DEL MAIN-IMAGEN*/ 
+.imagen{
+    height: 500px;
+    background-image: url('https://developer.playphone.com/App/Landing/img/main-slide-4.png');
+    background-size: 100% ;
+    font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
+    h1 {
+        margin: 0;
+      }
+    .contenidoimagen {
+        width: 500px;
+        height: 236px;
+        text-align: left;
+        margin-left: 141px;
+        margin-top: 39px;
+        padding-left: 100px;
+       }
+    .tituloimagen {
+        @include font (1.125em, normal);
+        color: #99ce45;
+        display: block;
+        padding-top: 80px; 
+        margin-bottom: 30px;
+        }
+    .parrafoimagen {
+        @include font (1.1em, normal);
+        color: $color-blanco;
+        padding-bottom: 110px;
+        }
+    .footerimagen {
+        @include font (1.1em, normal);
+        color: $color-blanco;
+        }
+}
+  
+
+  /* FINAL DEL MAIN-IMAGEN */
