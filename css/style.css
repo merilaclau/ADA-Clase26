@@ -4,7 +4,7 @@
   height: 500px;
   background-image: url("https://developer.playphone.com/App/Landing/img/main-slide-2.png");
   background-size: 100%;
-  font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif; }
   .hero h1 {
     margin: 0; }
   .hero .contenidohero {
@@ -58,31 +58,33 @@
   height: 500px;
   background-image: url("https://developer.playphone.com/App/Landing/img/main-slide-4.png");
   background-size: 100%;
-  font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif; }
   .imagen h1 {
     margin: 0; }
   .imagen .contenidoimagen {
-    width: 500px;
+    width: 420px;
     height: 236px;
     text-align: left;
     margin-left: 141px;
     margin-top: 39px;
-    padding-left: 100px; }
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif; }
   .imagen .tituloimagen {
-    font-size: 2.125em;
+    font-size: 1.125em;
+    font-weight: normal;
+    color: #99ce45;
+    display: block;
+    padding-top: 100px;
+    margin-bottom: 50px; }
+  .imagen .parrafoimagen {
+    font-size: 1.5em;
     font-weight: normal;
     color: #fff;
-    /*font-size: 2.125em;
-        font-weight: normal;*/
-    display: block;
-    padding-top: 80px; }
-  .imagen .parrafoimagen {
+    padding-bottom: 40px; }
+  .imagen .footerimagen {
     font-size: 1.1em;
     font-weight: normal;
-    color: #fff;
-    /*font-size: 1.1em;
-        font-weight: normal;*/
-    padding-bottom: 110px; }
+    color: #fff; }
 
 /* FINAL DEL MAIN-IMAGEN */
 body {
