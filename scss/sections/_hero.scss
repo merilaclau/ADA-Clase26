@@ -1,0 +1,64 @@
+@import "../abstract/variables";
+@import "../abstract/mixins";
+
+/* HERO */
+/* COMIENZO DEL HERO*/ 
+.hero{
+    height: 500px;
+    background-image: url('https://developer.playphone.com/App/Landing/img/main-slide-2.png');
+    background-size: 100% ;
+    font-family: Montserrat, Arial, Helvetica, Tahoma, Verdana, sans-serif;
+    h1 {
+        margin: 0;
+      }
+    .contenidohero {
+        width: 500px;
+        height: 236px;
+        text-align: left;
+        margin-left: 141px;
+        margin-top: 39px;
+        padding-left: 100px;
+       }
+    .titulohero {
+        @include font (2.125em, normal)
+        color: $color-blanco;
+        /*font-size: 2.125em;
+        font-weight: normal;*/
+        display: block;
+        padding-top: 80px; 
+        }
+    .parrafohero {
+        @include font (1.1em, normal)
+        color: $color-blanco;
+        /*font-size: 1.1em;
+        font-weight: normal;*/
+        padding-bottom: 110px;
+        }
+    
+    .botonhero {
+        color: $color-blanco;
+        background: $color-naranja;
+        border-color: $color-naranja;
+        font-size: .95em;
+        font-weight: normal;
+        border-width: .14em;
+        display: inline-block;
+        padding: 0.75em 1.4em;
+        border-radius: 2em;
+        cursor: pointer;
+        line-height: normal;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 0.125em solid $color-naranja;
+        color: $color-blanco;
+        transition: background 0.4s, color 0.4s, border-color 0.4s;
+        }
+    
+    .botonhero:hover{
+        color:  $color-naranja; 
+        background: unset;
+    }
+  }
+
+  /* FINAL DEL HERO */
