@@ -1,7 +1,6 @@
 button {
   background: #78f378;
   color: #fff;
-  position: relative;
   border-radius: 8px; }
 
 .contenedor-button {
@@ -9,18 +8,14 @@ button {
   flex-wrap: wrap;
   margin: 0px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  width: 40%; }
 
 .titulo {
   font-size: 32px;
   height: 120px;
   padding: 0px;
-  width: 320px;
-  position: absolute; }
-  .titulo .p {
-    position: relative;
-    width: 320px;
-    align-items: center; }
+  width: 320px; }
 
 body {
   margin: 0px; }
