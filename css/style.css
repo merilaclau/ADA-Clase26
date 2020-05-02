@@ -1,0 +1,12 @@
+body {
+  margin: 0px; }
+
+.titulo {
+  font-size: 32px;
+  height: 120px;
+  padding: 0px;
+  width: 320px; }
+  .titulo .p {
+    position: relative;
+    width: 320px;
+    align-items: center; }
