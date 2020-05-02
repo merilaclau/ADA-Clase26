@@ -1,6 +1,12 @@
 @import "../scss/abstract/variables";
 @import "../scss/abstract/mixins";
+
+@import "../scss/components/button";
+
 @import "../scss/sections/header";
+@import "../scss/sections/hero";
+@import "../scss/sections/nav";
+@import "../scss/sections/main";
 
 body {
     margin: 0px;
