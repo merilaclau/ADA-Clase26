@@ -1,12 +1,26 @@
-body {
-  margin: 0px; }
+button {
+  background: #78f378;
+  color: #fff;
+  position: relative;
+  border-radius: 8px; }
+
+.contenedor-button {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  align-items: center;
+  justify-content: center; }
 
 .titulo {
   font-size: 32px;
   height: 120px;
   padding: 0px;
-  width: 320px; }
+  width: 320px;
+  position: absolute; }
   .titulo .p {
     position: relative;
     width: 320px;
     align-items: center; }
+
+body {
+  margin: 0px; }
